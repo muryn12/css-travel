@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.menu-logo {
+    width: 40%;
+    float: left;
+}
+
+.palmtree-img {
+    position: relative;
+    z-index: 1;
+    left: 300px;
+    top: 20px;
+    opacity: 0.2;
+}
+
+.logo-img {
+    z-index: 2;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.slogo-img {
+    position: relative;
+    z-index: 2;
+    left: 200px;
+}
+
+.menu-contact {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.menu-contact p {
+    text-align: left;
+    color: white;
+}
+
+.box {
+    width: 90%;
+    max-width: 870px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.india {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.india-img {
+    border: 1px solid black;
+}
+
+.india-text {
+    color: white;
+    text-align: center;
+}
+
+.nepal {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.nepal-img {
+    border: 1px solid black;
+}
+
+.nepal-text {
+    color: white;
+    text-align: center;
+}
+
+.tibet {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.tibet-img {
+    border: 1px solid black;
+}
+
+.tibet-text {
+    color: white;
+    text-align: center;
+}
+
+.bhutan {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.bhutan-img {
+    border: 1px solid black;
+}
+
+.bhutan-text {
+    color: white;
+    text-align: center;
+}
+
+.sri-lanka {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.sri-lanka-img {
+    border: 1px solid black;
+}
+
+.sri-lanka-text {
+    color: white;
+    text-align: center;
+}
+
+.maldives {
+    width: 274px;
+    height: 192px;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.maldives-img {
+    border: 1px solid black;
+}
+
+.maldives-text {
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 980px) {
+    .box {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .box {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+    
+    
